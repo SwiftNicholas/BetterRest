@@ -9,17 +9,19 @@
 /* Begin PBXBuildFile section */
 		BF5C2E1D26FA451A00D5DC6E /* BetterRestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5C2E1C26FA451A00D5DC6E /* BetterRestApp.swift */; };
 		BF5C2E1F26FA451A00D5DC6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5C2E1E26FA451A00D5DC6E /* ContentView.swift */; };
-		BF5C2E2126FA451D00D5DC6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5C2E2026FA451D00D5DC6E /* Assets.xcassets */; };
 		BF5C2E2426FA451D00D5DC6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5C2E2326FA451D00D5DC6E /* Preview Assets.xcassets */; };
+		BF5C2E2E26FA4AE200D5DC6E /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BF5C2E2D26FA4AE200D5DC6E /* SleepCalculator.mlmodel */; };
+		BF5C2E3226FA6DD500D5DC6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5C2E3126FA6DD500D5DC6E /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BF5C2E1926FA451A00D5DC6E /* BetterRest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterRest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5C2E1C26FA451A00D5DC6E /* BetterRestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestApp.swift; sourceTree = "<group>"; };
 		BF5C2E1E26FA451A00D5DC6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		BF5C2E2026FA451D00D5DC6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF5C2E2326FA451D00D5DC6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BF5C2E2526FA451D00D5DC6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF5C2E2D26FA4AE200D5DC6E /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
+		BF5C2E3126FA6DD500D5DC6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +56,9 @@
 			children = (
 				BF5C2E1C26FA451A00D5DC6E /* BetterRestApp.swift */,
 				BF5C2E1E26FA451A00D5DC6E /* ContentView.swift */,
-				BF5C2E2026FA451D00D5DC6E /* Assets.xcassets */,
+				BF5C2E3126FA6DD500D5DC6E /* Assets.xcassets */,
 				BF5C2E2526FA451D00D5DC6E /* Info.plist */,
+				BF5C2E2D26FA4AE200D5DC6E /* SleepCalculator.mlmodel */,
 				BF5C2E2226FA451D00D5DC6E /* Preview Content */,
 			);
 			path = BetterRest;
@@ -127,7 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF5C2E2426FA451D00D5DC6E /* Preview Assets.xcassets in Resources */,
-				BF5C2E2126FA451D00D5DC6E /* Assets.xcassets in Resources */,
+				BF5C2E3226FA6DD500D5DC6E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF5C2E2E26FA4AE200D5DC6E /* SleepCalculator.mlmodel in Sources */,
 				BF5C2E1F26FA451A00D5DC6E /* ContentView.swift in Sources */,
 				BF5C2E1D26FA451A00D5DC6E /* BetterRestApp.swift in Sources */,
 			);
